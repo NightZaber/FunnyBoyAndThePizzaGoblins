@@ -64,7 +64,7 @@
       <GameExplorerEnabled>False</GameExplorerEnabled>
       <Description />
       <ReleaseDate>2007-08-19</ReleaseDate>
-      <Genre>Adventure</Genre>
+      <Genre>Noir</Genre>
       <Version>1.0.0.0</Version>
       <WindowsExperienceIndex>1</WindowsExperienceIndex>
       <DeveloperName />
@@ -4560,8 +4560,8 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\MUSIC\Main Title.mp3</SourceFileName>
                 <ScriptName>aMain_Title</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\MUSIC\Main Title.mp3</SourceFileName>
                 <Index>12</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -4586,8 +4586,8 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\DELACE.wav</SourceFileName>
                     <ScriptName>aDELACE</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\DELACE.wav</SourceFileName>
                     <Index>1</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4598,8 +4598,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 06:30:39Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\RELACE.wav</SourceFileName>
                     <ScriptName>aRELACE</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\RELACE.wav</SourceFileName>
                     <Index>2</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4610,8 +4610,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 06:32:00Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\HAMMER SHOES.wav</SourceFileName>
                     <ScriptName>aHAMMER_SHOES</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\HAMMER SHOES.wav</SourceFileName>
                     <Index>3</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4622,8 +4622,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 06:49:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\EAT_SANDWICH.wav</SourceFileName>
                     <ScriptName>aEAT_SANDWICH</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\EAT_SANDWICH.wav</SourceFileName>
                     <Index>4</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4646,8 +4646,8 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\fridge_door_close.wav</SourceFileName>
                     <ScriptName>aFridge_door_close</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\fridge_door_close.wav</SourceFileName>
                     <Index>5</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4658,8 +4658,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 07:17:36Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\fridge_door_open.wav</SourceFileName>
                     <ScriptName>aFridge_door_open</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\fridge_door_open.wav</SourceFileName>
                     <Index>6</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4670,8 +4670,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 07:17:09Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_locked.wav</SourceFileName>
                     <ScriptName>aDoor_locked</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_locked.wav</SourceFileName>
                     <Index>7</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4682,8 +4682,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 22:39:04Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_unlock.wav</SourceFileName>
                     <ScriptName>aDoor_unlock</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_unlock.wav</SourceFileName>
                     <Index>8</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4694,8 +4694,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 23:09:06Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_move.wav</SourceFileName>
                     <ScriptName>aDoor_move</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_move.wav</SourceFileName>
                     <Index>9</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4706,8 +4706,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 23:31:12Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\magnet.wav</SourceFileName>
                     <ScriptName>aMagnet</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\magnet.wav</SourceFileName>
                     <Index>10</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4730,8 +4730,8 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\office_sound.wav</SourceFileName>
                     <ScriptName>aOffice_sound</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\office_sound.wav</SourceFileName>
                     <Index>11</Index>
                     <Type>1</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4742,8 +4742,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-03 20:54:16Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\tv_sound.wav</SourceFileName>
                     <ScriptName>aTv_sound</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\tv_sound.wav</SourceFileName>
                     <Index>14</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4754,8 +4754,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-04 21:53:13Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\tunnel.wav</SourceFileName>
                     <ScriptName>aTunnel</ScriptName>
+                    <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\tunnel.wav</SourceFileName>
                     <Index>15</Index>
                     <Type>1</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4797,24 +4797,24 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>5</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>MediumFade</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
