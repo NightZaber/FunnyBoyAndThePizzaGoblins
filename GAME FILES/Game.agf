@@ -658,6 +658,15 @@
               </UnloadedRoom>
             </UnloadedRooms>
           </UnloadedRoomFolder>
+          <UnloadedRoomFolder Name="PAWN SHOP">
+            <SubFolders />
+            <UnloadedRooms>
+              <UnloadedRoom>
+                <Number>5</Number>
+                <Description xml:space="preserve">PAWN SHOP DAY</Description>
+              </UnloadedRoom>
+            </UnloadedRooms>
+          </UnloadedRoomFolder>
         </SubFolders>
         <UnloadedRooms>
           <UnloadedRoom>
@@ -2111,9 +2120,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>4</StartingRoom>
-            <StartX>293</StartX>
-            <StartY>113</StartY>
+            <StartingRoom>5</StartingRoom>
+            <StartX>76</StartX>
+            <StartY>139</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>1</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
