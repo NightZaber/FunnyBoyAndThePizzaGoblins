@@ -2120,9 +2120,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>5</StartingRoom>
-            <StartX>76</StartX>
-            <StartY>139</StartY>
+            <StartingRoom>4</StartingRoom>
+            <StartX>293</StartX>
+            <StartY>112</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>1</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -2333,13 +2333,13 @@ return
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>6</HotspotX>
-        <HotspotY>15</HotspotY>
+        <HotspotX>8</HotspotX>
+        <HotspotY>8</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2054</Image>
-        <View>0</View>
-        <Animate>False</Animate>
-        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <Image>105</Image>
+        <View>8</View>
+        <Animate>True</Animate>
+        <AnimateOnlyOnHotspots>True</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <Name xml:space="preserve">Walk to</Name>
       </MouseCursor>
@@ -2348,10 +2348,10 @@ return
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2056</Image>
-        <View>0</View>
-        <Animate>False</Animate>
-        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <Image>105</Image>
+        <View>8</View>
+        <Animate>True</Animate>
+        <AnimateOnlyOnHotspots>True</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <Name xml:space="preserve">Look at</Name>
       </MouseCursor>
@@ -2360,10 +2360,10 @@ return
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2057</Image>
-        <View>0</View>
-        <Animate>False</Animate>
-        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <Image>105</Image>
+        <View>8</View>
+        <Animate>True</Animate>
+        <AnimateOnlyOnHotspots>True</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <Name>Interact</Name>
       </MouseCursor>
@@ -2372,10 +2372,10 @@ return
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2058</Image>
-        <View>0</View>
-        <Animate>False</Animate>
-        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <Image>105</Image>
+        <View>8</View>
+        <Animate>True</Animate>
+        <AnimateOnlyOnHotspots>True</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <Name xml:space="preserve">Talk to</Name>
       </MouseCursor>
@@ -2384,8 +2384,8 @@ return
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2059</Image>
-        <View>0</View>
+        <Image>105</Image>
+        <View>8</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
@@ -2396,10 +2396,10 @@ return
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2060</Image>
-        <View>0</View>
-        <Animate>False</Animate>
-        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
+        <Image>105</Image>
+        <View>8</View>
+        <Animate>True</Animate>
+        <AnimateOnlyOnHotspots>True</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <Name xml:space="preserve">Pick up</Name>
       </MouseCursor>
@@ -2417,10 +2417,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>7</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2055</Image>
+        <Image>0</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2468,7 +2468,7 @@ return
         <PointSize>0</PointSize>
         <Name>Speech</Name>
         <OutlineFont>2</OutlineFont>
-        <OutlineStyle>UseOutlineFont</OutlineStyle>
+        <OutlineStyle>Automatic</OutlineStyle>
         <SourceFilename />
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
@@ -2966,6 +2966,26 @@ return
               </Sprite>
               <Sprite Slot="1" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="4" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+              <Sprite Slot="105" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\DEFAULT FILES\04_1.bmp</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="106" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\DEFAULT FILES\04_2.bmp</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="107" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\DEFAULT FILES\04_3.bmp</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="108" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\DEFAULT FILES\04_4.bmp</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="gSaveGameImport">
@@ -3632,6 +3652,46 @@ return
                       <ViewFrame>
                         <ID>3</ID>
                         <Image>49</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>8</ID>
+                <Name>vCURSOR_ANIMATE</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>105</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>106</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>107</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>108</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -4601,8 +4661,8 @@ See KeyboardMovement.txt for details.
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aMain_Title</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\MUSIC\Main Title.mp3</SourceFileName>
+                <ScriptName>aMain_Title</ScriptName>
                 <Index>12</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -4627,8 +4687,8 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <ScriptName>aDELACE</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\DELACE.wav</SourceFileName>
+                    <ScriptName>aDELACE</ScriptName>
                     <Index>1</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4639,8 +4699,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 06:30:39Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aRELACE</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\RELACE.wav</SourceFileName>
+                    <ScriptName>aRELACE</ScriptName>
                     <Index>2</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4651,8 +4711,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 06:32:00Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aHAMMER_SHOES</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\HAMMER SHOES.wav</SourceFileName>
+                    <ScriptName>aHAMMER_SHOES</ScriptName>
                     <Index>3</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4663,8 +4723,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 06:49:59Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aEAT_SANDWICH</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\ITEMS\EAT_SANDWICH.wav</SourceFileName>
+                    <ScriptName>aEAT_SANDWICH</ScriptName>
                     <Index>4</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4687,8 +4747,8 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <ScriptName>aFridge_door_close</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\fridge_door_close.wav</SourceFileName>
+                    <ScriptName>aFridge_door_close</ScriptName>
                     <Index>5</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4699,8 +4759,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 07:17:36Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aFridge_door_open</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\fridge_door_open.wav</SourceFileName>
+                    <ScriptName>aFridge_door_open</ScriptName>
                     <Index>6</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4711,8 +4771,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 07:17:09Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aDoor_locked</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_locked.wav</SourceFileName>
+                    <ScriptName>aDoor_locked</ScriptName>
                     <Index>7</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4723,8 +4783,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 22:39:04Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aDoor_unlock</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_unlock.wav</SourceFileName>
+                    <ScriptName>aDoor_unlock</ScriptName>
                     <Index>8</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4735,8 +4795,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 23:09:06Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aDoor_move</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\door_move.wav</SourceFileName>
+                    <ScriptName>aDoor_move</ScriptName>
                     <Index>9</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4747,8 +4807,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-02 23:31:12Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aMagnet</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\OBJECTS\magnet.wav</SourceFileName>
+                    <ScriptName>aMagnet</ScriptName>
                     <Index>10</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4771,8 +4831,8 @@ See KeyboardMovement.txt for details.
                 <SubFolders />
                 <AudioClips>
                   <AudioClip>
-                    <ScriptName>aOffice_sound</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\office_sound.wav</SourceFileName>
+                    <ScriptName>aOffice_sound</ScriptName>
                     <Index>11</Index>
                     <Type>1</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4783,8 +4843,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-03 20:54:16Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aTv_sound</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\tv_sound.wav</SourceFileName>
+                    <ScriptName>aTv_sound</ScriptName>
                     <Index>14</Index>
                     <Type>3</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4795,8 +4855,8 @@ See KeyboardMovement.txt for details.
                     <FileLastModifiedDate>2018-03-04 21:53:13Z</FileLastModifiedDate>
                   </AudioClip>
                   <AudioClip>
-                    <ScriptName>aTunnel</ScriptName>
                     <SourceFileName xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\SOUND EFFECTS\AMBIENT\tunnel.wav</SourceFileName>
+                    <ScriptName>aTunnel</ScriptName>
                     <Index>15</Index>
                     <Type>1</Type>
                     <BundlingType>InGameEXE</BundlingType>
@@ -4838,24 +4898,24 @@ See KeyboardMovement.txt for details.
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>5</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>MediumFade</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
