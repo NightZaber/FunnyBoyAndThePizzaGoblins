@@ -2182,8 +2182,8 @@
             <Properties />
             <Interactions>
               <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2">cHaynes_Talk</Event>
+              <Event Index="1">cHaynes_Talk</Event>
+              <Event Index="2" />
               <Event Index="3">cHaynes_UseInv</Event>
               <Event Index="4" />
               <Event Index="5" />
@@ -2961,7 +2961,7 @@ return
               <Sprite Slot="2060" Width="16" Height="16" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="2061" Width="16" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\DEFAULT FILES\07.bmp</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\DEFAULT FILES\07.bmp</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="1" Width="20" Height="20" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
