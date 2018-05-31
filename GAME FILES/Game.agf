@@ -670,10 +670,6 @@
         </SubFolders>
         <UnloadedRooms>
           <UnloadedRoom>
-            <Number>301</Number>
-            <Description xml:space="preserve">TITLE SCREEN</Description>
-          </UnloadedRoom>
-          <UnloadedRoom>
             <Number>302</Number>
             <Description xml:space="preserve">GAME OVER</Description>
           </UnloadedRoom>
@@ -684,237 +680,6 @@
       <GUIFolder Name="Main">
         <SubFolders />
         <GUIs>
-          <GUIMain>
-            <NormalGUI>
-              <OnClick />
-              <Height>27</Height>
-              <Width>320</Width>
-              <Left>0</Left>
-              <Top>0</Top>
-              <Clickable>True</Clickable>
-              <Visibility>MouseYPos</Visibility>
-              <PopupYPos>13</PopupYPos>
-              <ZOrder>1</ZOrder>
-              <BorderColor>1</BorderColor>
-              <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <ID>0</ID>
-              <Name>gIconbar</Name>
-            </NormalGUI>
-            <Controls>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>SetCursorMode</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2044</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>0</Left>
-                <Top>0</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name />
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>SetCursorMode</ClickAction>
-                <NewModeNumber>1</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2045</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>32</Left>
-                <Top>0</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name />
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>SetCursorMode</ClickAction>
-                <NewModeNumber>2</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2046</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>64</Left>
-                <Top>0</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
-                <Name />
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>SetCursorMode</ClickAction>
-                <NewModeNumber>3</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2047</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>96</Left>
-                <Top>0</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
-                <Name />
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconInv_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2048</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>128</Left>
-                <Top>0</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
-                <Name>btnIconInv</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconCurInv_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2049</Image>
-                <Text>(INVSHR)</Text>
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>160</Left>
-                <Top>0</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>btnIconCurInv</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconSave_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2050</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>192</Left>
-                <Top>0</Top>
-                <ZOrder>6</ZOrder>
-                <ID>6</ID>
-                <Name>btnIconSave</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconLoad_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2051</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>224</Left>
-                <Top>0</Top>
-                <ZOrder>7</ZOrder>
-                <ID>7</ID>
-                <Name>btnIconLoad</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconExit_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2052</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>256</Left>
-                <Top>0</Top>
-                <ZOrder>8</ZOrder>
-                <ID>8</ID>
-                <Name>btnIconExit</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnIconAbout_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>2053</Image>
-                <Text />
-                <Height>27</Height>
-                <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>288</Left>
-                <Top>0</Top>
-                <ZOrder>9</ZOrder>
-                <ID>9</ID>
-                <Name>btnIconAbout</Name>
-              </GUIButton>
-            </Controls>
-          </GUIMain>
           <GUIMain>
             <NormalGUI>
               <OnClick>gInventory_OnClick</OnClick>
@@ -930,7 +695,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>104</BackgroundImage>
-              <ID>1</ID>
+              <ID>0</ID>
               <Name>gInventory</Name>
             </NormalGUI>
             <Controls>
@@ -1069,7 +834,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>65535</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>2</ID>
+              <ID>1</ID>
               <Name>gPanel</Name>
             </NormalGUI>
             <Controls>
@@ -1382,7 +1147,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>7</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>3</ID>
+              <ID>2</ID>
               <Name>gRestartYN</Name>
             </NormalGUI>
             <Controls>
@@ -1459,7 +1224,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>7</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>4</ID>
+              <ID>3</ID>
               <Name>gSaveGame</Name>
             </NormalGUI>
             <Controls>
@@ -1591,7 +1356,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>7</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>5</ID>
+              <ID>4</ID>
               <Name>gRestoreGame</Name>
             </NormalGUI>
             <Controls>
@@ -1687,7 +1452,7 @@
               <Transparency>0</Transparency>
               <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <ID>6</ID>
+              <ID>5</ID>
               <Name>gDisplayName</Name>
             </NormalGUI>
             <Controls>
@@ -1705,6 +1470,132 @@
                 <ID>0</ID>
                 <Name>OVERHOTSPOT</Name>
               </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>29</Height>
+              <Width>300</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>MouseYPos</Visibility>
+              <PopupYPos>32</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>109</BackgroundImage>
+              <ID>6</ID>
+              <Name>gIconbar</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>Inventory_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Inventory</Text>
+                <Height>29</Height>
+                <Locked>False</Locked>
+                <Width>60</Width>
+                <Left>149</Left>
+                <Top>0</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>gInventorybutton</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>gSaveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Save</Text>
+                <Height>29</Height>
+                <Locked>False</Locked>
+                <Width>30</Width>
+                <Left>209</Left>
+                <Top>0</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>gSaveButton</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button1_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Load</Text>
+                <Height>29</Height>
+                <Locked>False</Locked>
+                <Width>29</Width>
+                <Left>239</Left>
+                <Top>0</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Button1</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>Button2_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Quit</Text>
+                <Height>29</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>268</Left>
+                <Top>0</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Button2</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btnIconAbout_Click</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Settings</Text>
+                <Height>29</Height>
+                <Locked>False</Locked>
+                <Width>51</Width>
+                <Left>98</Left>
+                <Top>0</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Button3</Name>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -2984,6 +2875,11 @@ return
               <Sprite Slot="108" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
                 <Source>
                   <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\DEFAULT FILES\04_4.bmp</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="109" Width="320" Height="29" ColorDepth="32" Resolution="LowRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\DEFAULT FILES\hudbar.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
