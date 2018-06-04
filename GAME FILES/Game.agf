@@ -1072,8 +1072,8 @@
                 <Height>18</Height>
                 <Locked>False</Locked>
                 <Width>70</Width>
-                <Left>97</Left>
-                <Top>72</Top>
+                <Left>100</Left>
+                <Top>76</Top>
                 <ZOrder>12</ZOrder>
                 <ID>12</ID>
                 <Name>btnVoice</Name>
@@ -1476,124 +1476,95 @@
             <NormalGUI>
               <OnClick />
               <Height>29</Height>
-              <Width>300</Width>
+              <Width>320</Width>
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
               <Visibility>MouseYPos</Visibility>
-              <PopupYPos>32</PopupYPos>
+              <PopupYPos>29</PopupYPos>
               <ZOrder>0</ZOrder>
               <BorderColor>2</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>109</BackgroundImage>
+              <BackgroundImage>119</BackgroundImage>
               <ID>6</ID>
               <Name>gIconbar</Name>
             </NormalGUI>
             <Controls>
-              <GUIButton>
-                <OnClick>Inventory_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>Inventory</Text>
-                <Height>29</Height>
-                <Locked>False</Locked>
-                <Width>60</Width>
-                <Left>149</Left>
-                <Top>0</Top>
+              <GUIInventory>
+                <ItemWidth>26</ItemWidth>
+                <ItemHeight>26</ItemHeight>
+                <CharacterID>-1</CharacterID>
+                <Height>26</Height>
+                <Locked>True</Locked>
+                <Width>237</Width>
+                <Left>28</Left>
+                <Top>1</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>gInventorybutton</Name>
-              </GUIButton>
+                <Name>InventoryWindow1</Name>
+              </GUIInventory>
               <GUIButton>
-                <OnClick>gSaveButton_OnClick</OnClick>
+                <OnClick>btnInvUp_Click</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
+                <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>Save</Text>
-                <Height>29</Height>
-                <Locked>False</Locked>
-                <Width>30</Width>
-                <Left>209</Left>
-                <Top>0</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>gSaveButton</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>Button1_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>Load</Text>
+                <PushedImage>110</PushedImage>
+                <MouseoverImage>111</MouseoverImage>
+                <Image>112</Image>
+                <Text xml:space="preserve">New Button</Text>
                 <Height>29</Height>
                 <Locked>False</Locked>
                 <Width>29</Width>
-                <Left>239</Left>
-                <Top>0</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
+                <Left>0</Left>
+                <Top>1</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
                 <Name>Button1</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick>Button2_OnClick</OnClick>
+                <OnClick>btnInvDown_Click</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
+                <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>Quit</Text>
-                <Height>29</Height>
+                <PushedImage>113</PushedImage>
+                <MouseoverImage>114</MouseoverImage>
+                <Image>115</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>28</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>268</Left>
-                <Top>0</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
+                <Width>28</Width>
+                <Left>266</Left>
+                <Top>1</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
                 <Name>Button2</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick>btnIconAbout_Click</OnClick>
+                <OnClick />
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
+                <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>Settings</Text>
-                <Height>29</Height>
+                <PushedImage>117</PushedImage>
+                <MouseoverImage>116</MouseoverImage>
+                <Image>118</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>28</Height>
                 <Locked>False</Locked>
-                <Width>51</Width>
-                <Left>98</Left>
-                <Top>0</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
+                <Width>28</Width>
+                <Left>292</Left>
+                <Top>1</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
                 <Name>Button3</Name>
               </GUIButton>
             </Controls>
@@ -2705,6 +2676,11 @@ return
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>INVENTORY_VISIBLE</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -3432,6 +3408,61 @@ return
               </SpriteFolder>
             </SubFolders>
             <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="UI">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="110" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Arrows\left arrow hover.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="111" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Arrows\left arrow pressed.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="112" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Arrows\left arrow.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="113" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Arrows\right arrow hover.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="114" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Arrows\right arrow pressed.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="115" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Arrows\right arrow.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="116" Width="28" Height="28" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Options\Options hover.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="117" Width="28" Height="28" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Options\Options Pressed.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="118" Width="28" Height="28" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Options\Options.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="119" Width="320" Height="29" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Bar.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
           </SpriteFolder>
         </SubFolders>
         <Sprites>
