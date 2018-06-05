@@ -702,7 +702,7 @@
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
                 <TextColor>65535</TextColor>
-                <Font>0</Font>
+                <Font>4</Font>
                 <Text xml:space="preserve">New Label</Text>
                 <Height>12</Height>
                 <Locked>False</Locked>
@@ -712,6 +712,20 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>lblActionText</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopRight</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>4</Font>
+                <Text xml:space="preserve">New Label</Text>
+                <Height>13</Height>
+                <Locked>False</Locked>
+                <Width>124</Width>
+                <Left>3</Left>
+                <Top>0</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>lblActionText1</Name>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -755,15 +769,15 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>110</PushedImage>
-                <MouseoverImage>111</MouseoverImage>
+                <PushedImage>111</PushedImage>
+                <MouseoverImage>110</MouseoverImage>
                 <Image>112</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
                 <Left>-1</Left>
-                <Top>2</Top>
+                <Top>1</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>btnInvScrollLeft</Name>
@@ -776,8 +790,8 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>0</TextColor>
                 <Font>0</Font>
-                <PushedImage>113</PushedImage>
-                <MouseoverImage>114</MouseoverImage>
+                <PushedImage>114</PushedImage>
+                <MouseoverImage>113</MouseoverImage>
                 <Image>115</Image>
                 <Text xml:space="preserve">New Button</Text>
                 <Height>32</Height>
@@ -790,7 +804,7 @@
                 <Name>btnInvScrollRight</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>btnMenu_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -809,6 +823,292 @@
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnMenu</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>200</Height>
+              <Width>320</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>PopupModal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>2</BorderColor>
+              <Transparency>100</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>151</BackgroundImage>
+              <ID>2</ID>
+              <Name>gMainMenu</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>btn_MainMenu_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>132</MouseoverImage>
+                <Image>131</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>92</Width>
+                <Left>56</Left>
+                <Top>66</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>btn_MainMenu</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btn_Options_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>134</MouseoverImage>
+                <Image>133</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>92</Width>
+                <Left>56</Left>
+                <Top>93</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>btn_Options</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btn_ExitGame_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>136</MouseoverImage>
+                <Image>135</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>17</Height>
+                <Locked>False</Locked>
+                <Width>92</Width>
+                <Left>56</Left>
+                <Top>120</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>btn_ExitGame</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>146</MouseoverImage>
+                <Image>145</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>11</Height>
+                <Locked>True</Locked>
+                <Width>82</Width>
+                <Left>183</Left>
+                <Top>61</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>btnMainMenu_RestartGame</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>142</MouseoverImage>
+                <Image>141</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>12</Height>
+                <Locked>True</Locked>
+                <Width>75</Width>
+                <Left>182</Left>
+                <Top>76</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>btnMainMenu_LoadGame</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>144</MouseoverImage>
+                <Image>143</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>10</Height>
+                <Locked>True</Locked>
+                <Width>90</Width>
+                <Left>183</Left>
+                <Top>92</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>btnMainMenu_LoadAutosave</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>138</MouseoverImage>
+                <Image>137</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>12</Height>
+                <Locked>True</Locked>
+                <Width>79</Width>
+                <Left>183</Left>
+                <Top>106</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>btnMainMenu_AboutGame</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>140</MouseoverImage>
+                <Image>139</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>10</Height>
+                <Locked>True</Locked>
+                <Width>49</Width>
+                <Left>183</Left>
+                <Top>122</Top>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
+                <Name>btnMainMenu_Credits</Name>
+              </GUIButton>
+              <GUISlider>
+                <OnChange>btn_OptionsMenu_VolumeSlider_OnChange</OnChange>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <BackgroundImage>0</BackgroundImage>
+                <MinValue>0</MinValue>
+                <MaxValue>100</MaxValue>
+                <Value>100</Value>
+                <Height>14</Height>
+                <Locked>True</Locked>
+                <Width>80</Width>
+                <Left>187</Left>
+                <Top>111</Top>
+                <ZOrder>8</ZOrder>
+                <ID>8</ID>
+                <Name>btn_OptionsMenu_VolumeSlider</Name>
+              </GUISlider>
+              <GUISlider>
+                <OnChange>btn_OptionsMenu_SpeedSlider_OnChange</OnChange>
+                <HandleImage>0</HandleImage>
+                <HandleOffset>0</HandleOffset>
+                <BackgroundImage>0</BackgroundImage>
+                <MinValue>10</MinValue>
+                <MaxValue>100</MaxValue>
+                <Value>40</Value>
+                <Height>9</Height>
+                <Locked>True</Locked>
+                <Width>80</Width>
+                <Left>187</Left>
+                <Top>146</Top>
+                <ZOrder>9</ZOrder>
+                <ID>9</ID>
+                <Name>btn_OptionsMenu_SpeedSlider</Name>
+              </GUISlider>
+              <GUIButton>
+                <OnClick>btn_OptionsMenu_ToggleFullscreen_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>150</MouseoverImage>
+                <Image>149</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>10</Height>
+                <Locked>True</Locked>
+                <Width>84</Width>
+                <Left>187</Left>
+                <Top>71</Top>
+                <ZOrder>10</ZOrder>
+                <ID>10</ID>
+                <Name>btn_OptionsMenu_ToggleFullscreen</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btn_QuitGame_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>153</MouseoverImage>
+                <Image>152</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>12</Height>
+                <Locked>False</Locked>
+                <Width>76</Width>
+                <Left>187</Left>
+                <Top>132</Top>
+                <ZOrder>11</ZOrder>
+                <ID>11</ID>
+                <Name>btn_QuitGame</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>btnMainMenu_BacktoGame_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>155</MouseoverImage>
+                <Image>154</Image>
+                <Text xml:space="preserve">New Button</Text>
+                <Height>20</Height>
+                <Locked>True</Locked>
+                <Width>92</Width>
+                <Left>182</Left>
+                <Top>145</Top>
+                <ZOrder>12</ZOrder>
+                <ID>12</ID>
+                <Name>btnMainMenu_BacktoGame</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -1598,6 +1898,16 @@ return
         <VerticalOffset>0</VerticalOffset>
         <LineSpacing>0</LineSpacing>
       </Font>
+      <Font>
+        <ID>4</ID>
+        <PointSize>10</PointSize>
+        <Name xml:space="preserve">Normal Outline</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>Automatic</OutlineStyle>
+        <SourceFilename xml:space="preserve">C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\FONTS\Candara.ttf</SourceFilename>
+        <VerticalOffset>0</VerticalOffset>
+        <LineSpacing>0</LineSpacing>
+      </Font>
     </Fonts>
     <Palette>
       <PaletteEntry Index="0" Type="Gamewide" Red="0" Green="0" Blue="0" />
@@ -1921,6 +2231,16 @@ return
         </GlobalVariable>
         <GlobalVariable>
           <Name>INVENTORY_VISIBLE</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>MAINMENULAYER</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>esckeypressed01</Name>
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
         </GlobalVariable>
@@ -2703,6 +3023,136 @@ return
               <Sprite Slot="119" Width="320" Height="29" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Bar.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="130" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\MENU SCREEN A MAIN MENU.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="131" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\MENU SCREEN_1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="132" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\MENU SCREEN_2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="133" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\OPTIONS_1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="134" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\OPTIONS_2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="135" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\EXITGAME_1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="136" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\EXITGAME_2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="137" Width="79" Height="12" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_about01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="138" Width="79" Height="12" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_about02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="139" Width="49" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_credits01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="140" Width="49" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_credits02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="141" Width="75" Height="12" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_load01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="142" Width="75" Height="12" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_load02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="143" Width="89" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_loadauto01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="144" Width="89" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_loadauto02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="145" Width="82" Height="11" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_restart01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="146" Width="82" Height="11" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_restart02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="147" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\mainmenu_title.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="148" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\MENU SCREEN B OPTIONS.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="149" Width="84" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\toggle fullscreen 01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="150" Width="84" Height="10" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\toggle fullscreen 02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="151" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\MAIN MENU C QUIT.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="152" Width="76" Height="12" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\quitgame01.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="153" Width="76" Height="12" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\quitgame02.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="154" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\backtogame.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="155" Width="92" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\backtogame02.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
