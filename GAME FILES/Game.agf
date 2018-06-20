@@ -637,7 +637,7 @@
             <UnloadedRooms>
               <UnloadedRoom>
                 <Number>1</Number>
-                <Description xml:space="preserve">Mavish's Office</Description>
+                <Description xml:space="preserve">MAVISH OFFICE</Description>
               </UnloadedRoom>
               <UnloadedRoom>
                 <Number>2</Number>
@@ -798,7 +798,7 @@
                 <Locked>False</Locked>
                 <Width>32</Width>
                 <Left>266</Left>
-                <Top>2</Top>
+                <Top>1</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>btnInvScrollRight</Name>
@@ -819,7 +819,7 @@
                 <Locked>False</Locked>
                 <Width>28</Width>
                 <Left>292</Left>
-                <Top>1</Top>
+                <Top>0</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>btnMenu</Name>
@@ -959,27 +959,6 @@
                 <TextColor>0</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
-                <MouseoverImage>144</MouseoverImage>
-                <Image>143</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>10</Height>
-                <Locked>True</Locked>
-                <Width>90</Width>
-                <Left>183</Left>
-                <Top>92</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>btnMainMenu_LoadAutosave</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
                 <MouseoverImage>138</MouseoverImage>
                 <Image>137</Image>
                 <Text xml:space="preserve">New Button</Text>
@@ -987,9 +966,9 @@
                 <Locked>True</Locked>
                 <Width>79</Width>
                 <Left>183</Left>
-                <Top>106</Top>
-                <ZOrder>6</ZOrder>
-                <ID>6</ID>
+                <Top>91</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
                 <Name>btnMainMenu_AboutGame</Name>
               </GUIButton>
               <GUIButton>
@@ -1008,9 +987,9 @@
                 <Locked>True</Locked>
                 <Width>49</Width>
                 <Left>183</Left>
-                <Top>122</Top>
-                <ZOrder>7</ZOrder>
-                <ID>7</ID>
+                <Top>106</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
                 <Name>btnMainMenu_Credits</Name>
               </GUIButton>
               <GUISlider>
@@ -1026,8 +1005,8 @@
                 <Width>80</Width>
                 <Left>187</Left>
                 <Top>111</Top>
-                <ZOrder>8</ZOrder>
-                <ID>8</ID>
+                <ZOrder>7</ZOrder>
+                <ID>7</ID>
                 <Name>btn_OptionsMenu_VolumeSlider</Name>
               </GUISlider>
               <GUISlider>
@@ -1043,8 +1022,8 @@
                 <Width>80</Width>
                 <Left>187</Left>
                 <Top>146</Top>
-                <ZOrder>9</ZOrder>
-                <ID>9</ID>
+                <ZOrder>8</ZOrder>
+                <ID>8</ID>
                 <Name>btn_OptionsMenu_SpeedSlider</Name>
               </GUISlider>
               <GUIButton>
@@ -1064,8 +1043,8 @@
                 <Width>84</Width>
                 <Left>187</Left>
                 <Top>71</Top>
-                <ZOrder>10</ZOrder>
-                <ID>10</ID>
+                <ZOrder>9</ZOrder>
+                <ID>9</ID>
                 <Name>btn_OptionsMenu_ToggleFullscreen</Name>
               </GUIButton>
               <GUIButton>
@@ -1085,8 +1064,8 @@
                 <Width>76</Width>
                 <Left>187</Left>
                 <Top>132</Top>
-                <ZOrder>11</ZOrder>
-                <ID>11</ID>
+                <ZOrder>10</ZOrder>
+                <ID>10</ID>
                 <Name>btn_QuitGame</Name>
               </GUIButton>
               <GUIButton>
@@ -1106,8 +1085,8 @@
                 <Width>92</Width>
                 <Left>182</Left>
                 <Top>145</Top>
-                <ZOrder>12</ZOrder>
-                <ID>12</ID>
+                <ZOrder>11</ZOrder>
+                <ID>11</ID>
                 <Name>btnMainMenu_BacktoGame</Name>
               </GUIButton>
             </Controls>
@@ -1231,7 +1210,7 @@
             <ID>7</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>21</CursorImage>
             <Image>20</Image>
             <Description>Gun</Description>
@@ -1249,7 +1228,7 @@
             <ID>8</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>23</CursorImage>
             <Image>22</Image>
             <Description>Receipt</Description>
@@ -1293,6 +1272,24 @@
             <Properties />
             <Interactions>
               <Event Index="0">Key_Look</Event>
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>11</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>True</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>165</Image>
+            <Description>Cup</Description>
+            <Name>Cup</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1525,9 +1522,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>4</StartingRoom>
-            <StartX>293</StartX>
-            <StartY>112</StartY>
+            <StartingRoom>1</StartingRoom>
+            <StartX>242</StartX>
+            <StartY>157</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>1</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -2430,9 +2427,9 @@ return
           <SpriteFolder Name="Inventory Items">
             <SubFolders />
             <Sprites>
-              <Sprite Slot="6" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="6" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\badge box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Badge.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="7" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2440,9 +2437,9 @@ return
                   <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\badge.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="8" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="8" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\brick box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Brick.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="9" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2450,9 +2447,9 @@ return
                   <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\brick.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="10" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="10" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\shoe_box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Laced Shoes.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="11" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2460,9 +2457,9 @@ return
                   <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\shoes.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="12" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="12" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\shoelace box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Laces.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="13" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2470,9 +2467,9 @@ return
                   <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\laces.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="14" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="14" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\money box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Money.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="15" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2540,10 +2537,66 @@ return
                   <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\TITLE SCREEN\Inv_background.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="165" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Cup.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Mavish Office Objects">
-            <SubFolders />
+            <SubFolders>
+              <SpriteFolder Name="CEILING FAN">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="156" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="157" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="158" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="159" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="160" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="161" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 6.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="162" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 7.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="163" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 8.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="164" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ROOMS\MAVISH OFFICE\CEILING FAN\fan 9.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
             <Sprites>
               <Sprite Slot="18" Width="27" Height="45" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
@@ -3022,7 +3075,7 @@ return
               </Sprite>
               <Sprite Slot="119" Width="320" Height="29" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Bar.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\UI\Arrows\Bar.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="130" Width="320" Height="200" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -3841,6 +3894,91 @@ return
               </View>
             </Views>
           </ViewFolder>
+          <ViewFolder Name="ROOMS">
+            <SubFolders>
+              <ViewFolder Name="MAVISH OFFICE">
+                <SubFolders />
+                <Views>
+                  <View>
+                    <ID>9</ID>
+                    <Name>vCeilingFan</Name>
+                    <Loops>
+                      <Loop>
+                        <ID>0</ID>
+                        <RunNextLoop>False</RunNextLoop>
+                        <Frames>
+                          <ViewFrame>
+                            <ID>0</ID>
+                            <Image>156</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>1</ID>
+                            <Image>157</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>2</ID>
+                            <Image>158</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>3</ID>
+                            <Image>159</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>4</ID>
+                            <Image>160</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>5</ID>
+                            <Image>161</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>6</ID>
+                            <Image>162</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>7</ID>
+                            <Image>163</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                          <ViewFrame>
+                            <ID>8</ID>
+                            <Image>164</Image>
+                            <Flipped>False</Flipped>
+                            <Delay>0</Delay>
+                            <Sound>0</Sound>
+                          </ViewFrame>
+                        </Frames>
+                      </Loop>
+                    </Loops>
+                  </View>
+                </Views>
+              </ViewFolder>
+            </SubFolders>
+            <Views />
+          </ViewFolder>
         </SubFolders>
         <Views>
           <View>
@@ -4576,6 +4714,9 @@ return
   <Component Name="AudioNew" />
   <Component Name="GlobalVariables" />
   <Component Name="Scripts" />
+  <Component Name="DialogDesignerComponent">
+    <DialogDesignerPath>C:\Program Files (x86)\Adventure Game Studio 3.4.1\Dialog Designer.exe</DialogDesignerPath>
+  </Component>
   <Component Name="Plugins" />
   <Component Name="Rooms" />
   <Component Name="Translations" />
@@ -4593,11 +4734,24 @@ return
       <File Name="speech\hayn18.wav" FileTime="2018-03-07 19:28:39Z" />
       <File Name="speech\hayn19.wav" FileTime="2018-03-07 19:37:31Z" />
       <File Name="speech\hayn2.wav" FileTime="2018-03-07 19:19:47Z" />
+      <File Name="speech\hayn20.wav" FileTime="2018-05-20 00:58:42Z" />
+      <File Name="speech\hayn21.wav" FileTime="2018-05-20 00:59:31Z" />
+      <File Name="speech\hayn22.wav" FileTime="2018-05-20 01:00:54Z" />
+      <File Name="speech\hayn23.wav" FileTime="2018-05-20 01:01:36Z" />
+      <File Name="speech\hayn24.wav" FileTime="2018-05-20 01:02:10Z" />
+      <File Name="speech\hayn25.wav" FileTime="2018-05-20 01:04:44Z" />
+      <File Name="speech\hayn26.wav" FileTime="2018-05-20 01:05:24Z" />
+      <File Name="speech\hayn27.wav" FileTime="2018-05-20 01:08:29Z" />
+      <File Name="speech\hayn28.wav" FileTime="2018-05-20 01:09:15Z" />
+      <File Name="speech\hayn29.wav" FileTime="2018-05-20 01:09:51Z" />
       <File Name="speech\hayn3.wav" FileTime="2018-03-07 19:20:29Z" />
+      <File Name="speech\hayn30.wav" FileTime="2018-05-20 01:10:39Z" />
+      <File Name="speech\hayn31.wav" FileTime="2018-05-20 01:11:12Z" />
       <File Name="speech\hayn4.wav" FileTime="2018-03-07 19:20:58Z" />
       <File Name="speech\hayn5.wav" FileTime="2018-03-07 19:21:29Z" />
       <File Name="speech\hayn6.wav" FileTime="2018-03-07 19:21:54Z" />
       <File Name="speech\hayn7.wav" FileTime="2018-03-07 19:22:27Z" />
+      <File Name="speech\hayn72.wav" FileTime="2018-05-20 01:07:23Z" />
       <File Name="speech\hayn8.wav" FileTime="2018-03-07 19:22:56Z" />
       <File Name="speech\hayn9.wav" FileTime="2018-03-07 19:23:44Z" />
       <File Name="speech\mavi1.wav" FileTime="2018-03-02 04:03:31Z" />
