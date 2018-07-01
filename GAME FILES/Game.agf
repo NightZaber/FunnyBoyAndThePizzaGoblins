@@ -987,7 +987,7 @@
                 <Locked>True</Locked>
                 <Width>49</Width>
                 <Left>183</Left>
-                <Top>106</Top>
+                <Top>107</Top>
                 <ZOrder>6</ZOrder>
                 <ID>6</ID>
                 <Name>btnMainMenu_Credits</Name>
@@ -1522,9 +1522,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
-            <StartX>242</StartX>
-            <StartY>157</StartY>
+            <StartingRoom>4</StartingRoom>
+            <StartX>297</StartX>
+            <StartY>114</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>1</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -2434,7 +2434,7 @@ return
               </Sprite>
               <Sprite Slot="7" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\badge.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Badge_Mini.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="8" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2444,7 +2444,7 @@ return
               </Sprite>
               <Sprite Slot="9" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\brick.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Brick_Mini.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="10" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2454,7 +2454,7 @@ return
               </Sprite>
               <Sprite Slot="11" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\shoes.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Laced Shoes_mini.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="12" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2464,7 +2464,7 @@ return
               </Sprite>
               <Sprite Slot="13" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\laces.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Laces_mini.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="14" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
@@ -2474,57 +2474,57 @@ return
               </Sprite>
               <Sprite Slot="15" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\money.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Money_mini.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="16" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="16" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\sandwich box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Sandwich.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="17" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\sandwich.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Sandwich_mini.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="20" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="20" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\gun box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Revolver.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="21" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\gun.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Revolver_mini.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="22" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="22" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\receipt box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Receipt.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="23" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\receipt.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Receipt_mini.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="28" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="28" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\magnet box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Magnet.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="29" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\magnet.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Magnet_mini.png</FileName>
                 </Source>
               </Sprite>
-              <Sprite Slot="30" Width="32" Height="32" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
+              <Sprite Slot="30" Width="23" Height="23" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\key box.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Key.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="31" Width="16" Height="16" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
                 <Source>
-                  <FileName>C:\Users\Ezry\Desktop\MAVISH POINT N CLICK\ITEMS\key.png</FileName>
+                  <FileName>C:\Users\Ezry\Desktop\DETECTIVE MAVISH\ITEMS\Key_mini.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="54" Width="16" Height="17" ColorDepth="32" Resolution="LowRes" AlphaChannel="True">
